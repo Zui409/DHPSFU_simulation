@@ -20,8 +20,11 @@ These scripts are developed for generating simulated double-helix PSF (DH-PSF) d
 Workflow Overview
 ------------
 The full simulation and evaluation workflow includes the following stages:
+
 Simulation: Simulated DH-PSFs are generated using a retrieved phase mask derived from real microscope images. These DH-PSFs can be placed at arbitrary x,y,z coordinates relative to the origin. The simulated PSFs are randomly positioned on a black canvas with user-defined noise levels. The exact 3D positions (ground truth) of each PSF are recorded for later evaluation.
+
 Localisation Extraction: Simulated datasets are processed using the PeakFit function from the GDSC SMLM suite and the DHPSFU algorithm to extract localisation coordinates.
+
 Performance Comparison: Extracted results are compared against the ground truth to calculate key performance metrics, including localisation precision, detection accuracy, and sensitivity.
 
 Instruction
