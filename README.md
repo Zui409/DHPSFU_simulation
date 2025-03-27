@@ -29,8 +29,7 @@ Performance Comparison: Extracted results are compared against the ground truth 
 
 Instruction
 ------------
-1. Install Required Packages
-Ensure all required dependencies (MATLAB, Python, Fiji/ImageJ with GDSC SMLM, and optionally ThunderSTORM) are properly installed.
+Install Required Packages:Ensure all required dependencies (MATLAB, Python, Fiji/ImageJ with GDSC SMLM, and optionally ThunderSTORM) are properly installed.
 
 Step 1: Simulate DH-PSFs (MATLAB)
 Run the MATLAB script to generate DH-PSFs from a retrieved phase mask. This step will produce:#
